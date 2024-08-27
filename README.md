@@ -35,8 +35,11 @@ http://localhost:3000
 curl http://localhost:3000/api/users
 ```
 
-## Project Structure
+### Project Structure
 
+Here’s an overview of the project structure:
+
+```markdown
 db-testing-poc/
 ├── Dockerfile                # Docker configuration
 ├── docker-compose.yml        # Docker Compose configuration
@@ -45,9 +48,3 @@ db-testing-poc/
 ├── public/                   # Static files served by Express
 │   └── index.html            # Registration form HTML
 └── README.md                 # This file
-
-
-
-
-
-
